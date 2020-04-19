@@ -12,13 +12,13 @@ Ejecutar comando:
 docker-compose up -d
 ```
 La primera vez que ejecutemos el comando se descargarán las imagenes del mysql, php y phpmyadmin, y se crearan los 3 contenedores de docker. 
-Para parar y eliminar los contenedores ejecutar: docker-compose down
+Para parar y eliminar los contenedores ejecutar: ```docker-compose down```
 
 En la carpeta miweb tenemos un fichero de prueba index.php, que podemos sustituir por nuestro codigo web.
 
-Acceso página web: http://localhost/ 
+### Acceso página web: http://localhost/ 
 
-Acceso phpmyadmin: http://localhost:8080
+### Acceso phpmyadmin: http://localhost:8080
 
 
 
